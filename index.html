@@ -1,78 +1,90 @@
 
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="zh-TW">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>私募基金投資筆記</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      max-width: 800px;
-      margin: auto;
-      padding: 2rem;
-    }
-    h1, h2 {
-      color: #2b2b2b;
-    }
-    a {
-      color: #0066cc;
-    }
-    .box {
-      background: #f0f0f0;
-      padding: 1rem;
-      border-radius: 8px;
-      margin-bottom: 1.5rem;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>私募基金投資筆記 | Touareg Global</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-  <h1>私募基金投資筆記</h1>
-
-  <div class="box">
-    <p>這是一個關於 <strong>Touareg Global</strong> 的私募基金紀錄與教學網站，內容包括合約說明、收益介紹、入金與出金流程、以及 MAX 交易所註冊教學。</p>
-  </div>
-
-  <h2>📌 Touareg Global 是什麼？</h2>
-  <p>Touareg Global 是一家註冊於英屬維京群島（BVI）的私募基金機構，也在英國與夏威夷擁有金融牌照，提供混合型基金投資，包括 AI 搬磚套利、ETF、私募股權、REITs、不動產等多元標的。</p>
-
-  <h2>📈 投資合約與收益說明</h2>
-  <p>主要合約為週配型 USDT 合約，可設定複投或領出。每週收益自動結算，最低投入約 1000~5000 美金起。</p>
-
-  <h2>📝 註冊 Touareg Global 教學</h2>
-  <ol>
-    <li>點擊推薦連結：<a href="https://member.touareggroup.co/sign-up/MzE5MQ==" target="_blank">註冊 Touareg Global</a></li>
-    <li>或填寫推薦碼：<code>Lucky001</code></li>
-    <li>完成 KYC 認證（上傳護照、地址證明）</li>
-    <li>進入平台後加入官方群組學習操作</li>
-  </ol>
-
-  <h2>💰 入金與出金教學</h2>
-  <p>入金方式以 USDT（TRC20）為主，建議先註冊 <strong>MAX交易所</strong> 並轉帳到 TG 平台。</p>
-
-  <ul>
-    <li>入金：MAX ➜ TG 總收益錢包</li>
-    <li>出金：TG 冷錢包 ➜ MAX ➜ 銀行帳戶</li>
-  </ul>
-
-  <p>推薦使用 <strong>冷錢包方式出金</strong>，穩定且可領台幣、美金、日幣。</p>
-
-  <h2>📲 註冊 MAX 交易所教學</h2>
-  <ol>
-    <li>點擊推薦連結：<a href="https://max.maicoin.com/signup?r=1c1e0a23" target="_blank">註冊 MAX 交易所</a></li>
-    <li>完成手機與身份認證</li>
-    <li>設定銀行帳戶與提款方式</li>
-  </ol>
-
-  <h2>🔒 安全建議</h2>
-  <ul>
-    <li>建議使用冷錢包保管 TG 收益</li>
-    <li>請勿與他人分享帳號與私鑰</li>
-    <li>設定雙重驗證與提款白名單</li>
-  </ul>
-
-  <hr>
-  <p>若你對這個機會感興趣，歡迎點擊上方連結註冊體驗投資流程。</p>
+<body class="bg-gray-50 text-gray-800">
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold text-blue-700">私募基金投資筆記</h1>
+      <nav class="space-x-4">
+        <a href="#intro" class="text-gray-700 hover:text-blue-600">Touareg 簡介</a>
+        <a href="#contract" class="text-gray-700 hover:text-blue-600">合約與收益</a>
+        <a href="#register" class="text-gray-700 hover:text-blue-600">註冊教學</a>
+        <a href="#funding" class="text-gray-700 hover:text-blue-600">入出金</a>
+        <a href="#max" class="text-gray-700 hover:text-blue-600">MAX 註冊</a>
+        <a href="#faq" class="text-gray-700 hover:text-blue-600">常見問題</a>
+      </nav>
+    </div>
+  </header>
+  <main class="max-w-4xl mx-auto px-4 py-10">
+    <section id="intro" class="mb-16">
+      <h2 class="text-2xl font-bold text-blue-800 mb-4">Touareg Global 私募基金是什麼？</h2>
+      <p class="mb-4">Touareg Global 是一個專注於數位資產與私募基金操作的平台，透過週期性收益模型，提供穩定的現金流投資方案。平台支持 USDT 入金與出金，可選擇不同風險與報酬的合約類型。</p>
+      <p class="text-sm text-gray-500">（將來此區可加入公司背景圖片與 PDF 摘圖）</p>
+    </section>
+    <section id="contract" class="mb-16">
+      <h2 class="text-2xl font-bold text-blue-800 mb-4">合約種類與收益說明</h2>
+      <ul class="list-disc list-inside space-y-2">
+        <li>合約週期：30天 / 90天 / 180天 / 365天</li>
+        <li>收益分配：週配息、月結、到期總領皆可選擇</li>
+        <li>複利投資：可設定自動複投，收益再投入</li>
+        <li>本金保障：部分合約提供最低回收保障</li>
+      </ul>
+      <p class="text-sm text-gray-500 mt-2">（預留圖表區，可視化收益模型與資金流動圖）</p>
+    </section>
+    <section id="register" class="mb-16">
+      <h2 class="text-2xl font-bold text-blue-800 mb-4">Touareg 註冊教學</h2>
+      <ol class="list-decimal list-inside space-y-2">
+        <li>點擊推薦連結前往註冊：<br>
+          <a href="https://member.touareggroup.co/sign-up/MzE5MQ==" class="text-blue-600 underline" target="_blank">https://member.touareggroup.co/sign-up/MzE5MQ==</a><br>
+          推薦碼：<code class="bg-gray-100 px-2 py-1">Lucky001</code>
+        </li>
+        <li>填寫基本資料與信箱驗證</li>
+        <li>設定登入密碼、開啟兩步驗證</li>
+        <li>完成註冊後登入後台，開始選擇投資合約</li>
+      </ol>
+      <p class="text-sm text-gray-500 mt-2">（將來此區可補上註冊流程截圖）</p>
+    </section>
+    <section id="funding" class="mb-16">
+      <h2 class="text-2xl font-bold text-blue-800 mb-4">入金與出金流程</h2>
+      <p class="mb-2">建議使用合法合規的交易所（如 MAX）購買 USDT 並轉入 Touareg 錢包。</p>
+      <ul class="list-disc list-inside space-y-2">
+        <li>入金流程：台幣 ➜ MAX ➜ 買入 USDT ➜ 提領至 Touareg 錢包</li>
+        <li>出金流程：Touareg 收益 ➜ 提領至 MAX ➜ 換回台幣 ➜ 銀行帳戶</li>
+        <li>建議出金至 MAX 並綁定冷錢包提升安全性</li>
+      </ul>
+      <p class="text-sm text-gray-500 mt-2">（預留資金流動圖與轉帳示意圖區）</p>
+    </section>
+    <section id="max" class="mb-16">
+      <h2 class="text-2xl font-bold text-blue-800 mb-4">MAX 交易所註冊教學</h2>
+      <ol class="list-decimal list-inside space-y-2">
+        <li>前往 MAX 註冊連結：<br>
+          <a href="https://max.maicoin.com/signup?r=1c1e0a23" class="text-blue-600 underline" target="_blank">https://max.maicoin.com/signup?r=1c1e0a23</a><br>
+          推薦碼：<code class="bg-gray-100 px-2 py-1">1c1e0a23</code></li>
+        <li>完成身份驗證（手機、身分證上傳）</li>
+        <li>綁定銀行帳戶（台幣出入金使用）</li>
+        <li>購買 USDT，並設定提領地址</li>
+      </ol>
+      <p class="text-sm text-gray-500 mt-2">完整教學可參考：
+        <a href="https://support.maicoin.com/zh-TW/support/solutions/articles/32000024419" target="_blank" class="text-blue-600 underline">MAX 官網教學</a>
+      </p>
+    </section>
+    <section id="faq" class="mb-10">
+      <h2 class="text-2xl font-bold text-blue-800 mb-4">常見問題 / 安全提醒</h2>
+      <ul class="list-disc list-inside space-y-2">
+        <li>請務必啟用 2FA 雙重驗證確保帳戶安全</li>
+        <li>建議出金後使用冷錢包保存資產</li>
+        <li>Touareg 並非法定金融機構，投資請留意風險</li>
+      </ul>
+    </section>
+  </main>
+  <footer class="bg-gray-100 text-center text-sm py-6 text-gray-500">
+    私募基金投資筆記 ｜ 非官方網站，僅供學習與研究分享 ｜ 最後更新：2025-07
+  </footer>
 </body>
 </html>
